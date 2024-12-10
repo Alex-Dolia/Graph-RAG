@@ -1,0 +1,611 @@
+ {
+  "nodes": [
+    {
+      "id": "P1",
+      "type": "Person",
+      "name": "Alice Smith"
+    },
+    {
+      "id": "P2",
+      "type": "Person",
+      "name": "Bob Johnson"
+    },
+    {
+      "id": "P3",
+      "type": "Person",
+      "name": "Carol Williams"
+    },
+    {
+      "id": "P4",
+      "type": "Person",
+      "name": "David Brown"
+    },
+    {
+      "id": "P5",
+      "type": "Person",
+      "name": "Eve Jones"
+    },
+    {
+      "id": "P6",
+      "type": "Person",
+      "name": "Frank Garcia"
+    },
+    {
+      "id": "P7",
+      "type": "Person",
+      "name": "Grace Miller"
+    },
+    {
+      "id": "P8",
+      "type": "Person",
+      "name": "Henry Davis"
+    },
+    {
+      "id": "P9",
+      "type": "Person",
+      "name": "Irene Martinez"
+    },
+    {
+      "id": "P10",
+      "type": "Person",
+      "name": "Jack Wilson"
+    },
+    {
+      "id": "P11",
+      "type": "Person",
+      "name": "Karen Anderson"
+    },
+    {
+      "id": "P12",
+      "type": "Person",
+      "name": "Larry Thomas"
+    },
+    {
+      "id": "P13",
+      "type": "Person",
+      "name": "Mary Taylor"
+    },
+    {
+      "id": "P14",
+      "type": "Person",
+      "name": "Nancy Moore"
+    },
+    {
+      "id": "P15",
+      "type": "Person",
+      "name": "Oscar Jackson"
+    },
+    {
+      "id": "P16",
+      "type": "Person",
+      "name": "Paul Martin"
+    },
+    {
+      "id": "P17",
+      "type": "Person",
+      "name": "Queen Lee"
+    },
+    {
+      "id": "P18",
+      "type": "Person",
+      "name": "Robert Harris"
+    },
+    {
+      "id": "P19",
+      "type": "Person",
+      "name": "Susan Clark"
+    },
+    {
+      "id": "P20",
+      "type": "Person",
+      "name": "Tom Lewis"
+    },
+    {
+      "id": "J1",
+      "type": "Journal",
+      "name": "Journal of Artificial Intelligence Research"
+    },
+    {
+      "id": "J2",
+      "type": "Journal",
+      "name": "AI Magazine"
+    },
+    {
+      "id": "J3",
+      "type": "Journal",
+      "name": "Machine Learning Journal"
+    },
+    {
+      "id": "J4",
+      "type": "Journal",
+      "name": "Computational Intelligence Journal"
+    },
+    {
+      "id": "Pa1",
+      "type": "Paper",
+      "title": "Symbolic Reasoning in AI Systems",
+      "abstract": "This paper discusses the implementation of symbolic reasoning methods in artificial intelligence systems, focusing on knowledge representation and inference mechanisms."
+    },
+    {
+      "id": "Pa2",
+      "type": "Paper",
+      "title": "A Survey of Knowledge Representation Techniques",
+      "abstract": "This survey reviews various knowledge representation techniques used in symbolic AI, including semantic networks, frames, and ontologies."
+    },
+    {
+      "id": "Pa3",
+      "type": "Paper",
+      "title": "Logical Foundations of Artificial Intelligence",
+      "abstract": "An exploration of the logical principles that underpin artificial intelligence, examining propositional and predicate logic applications."
+    },
+    {
+      "id": "Pa4",
+      "type": "Paper",
+      "title": "Combining Symbolic and Subsymbolic Methods",
+      "abstract": "This paper investigates the integration of symbolic and subsymbolic approaches to enhance AI system capabilities."
+    },
+    {
+      "id": "Pa5",
+      "type": "Paper",
+      "title": "Expert Systems: Principles and Programming",
+      "abstract": "A comprehensive overview of expert systems, covering their design principles, knowledge acquisition, and programming techniques."
+    },
+    {
+      "id": "Pa6",
+      "type": "Paper",
+      "title": "Advancements in Symbolic Machine Learning",
+      "abstract": "An analysis of recent advancements in symbolic machine learning, including inductive logic programming and relational learning."
+    },
+    {
+      "id": "Pa7",
+      "type": "Paper",
+      "title": "Ontology Engineering for the Semantic Web",
+      "abstract": "This paper outlines methodologies for ontology engineering to support the development of the semantic web."
+    },
+    {
+      "id": "Pa8",
+      "type": "Paper",
+      "title": "Rule-Based Systems in Modern AI",
+      "abstract": "An examination of rule-based systems and their applications in current artificial intelligence research."
+    },
+    {
+      "id": "Pa9",
+      "type": "Paper",
+      "title": "The Role of Logic in AI",
+      "abstract": "This paper delves into the significance of logical reasoning in the development of intelligent agents."
+    },
+    {
+      "id": "Pa10",
+      "type": "Paper",
+      "title": "Symbolic AI and Natural Language Processing",
+      "abstract": "An investigation into how symbolic AI techniques are applied in natural language processing tasks."
+    },
+    {
+      "id": "W1",
+      "type": "Wikipage",
+      "title": "Symbolic Artificial Intelligence",
+      "abstract": "Symbolic AI is the area of artificial intelligence research that emphasizes the manipulation of high-level, human-readable symbols to perform tasks.",
+      "key_people": ["P1", "P3", "P5"]
+    },
+    {
+      "id": "W2",
+      "type": "Wikipage",
+      "title": "Knowledge Representation",
+      "abstract": "Knowledge representation involves the methods used to represent information about the world in a form that a computer system can utilize.",
+      "key_people": ["P2", "P4", "P6"]
+    },
+    {
+      "id": "W3",
+      "type": "Wikipage",
+      "title": "Expert Systems",
+      "abstract": "Expert systems are AI programs that simulate the judgment and behavior of a human or an organization that has expert knowledge and experience in a particular field.",
+      "key_people": ["P7", "P8", "P9"]
+    },
+    {
+      "id": "W4",
+      "type": "Wikipage",
+      "title": "Logic in Computer Science",
+      "abstract": "Logic in computer science covers the overlap between the field of logic and that of computer science.",
+      "key_people": ["P10", "P11", "P12"]
+    },
+    {
+      "id": "W5",
+      "type": "Wikipage",
+      "title": "Ontology (information science)",
+      "abstract": "In information science, an ontology is a formal naming and definition of the types, properties, and interrelationships of the entities.",
+      "key_people": ["P13", "P14", "P15"]
+    }
+  ],
+  "edges": [
+    {
+      "source": "P1",
+      "target": "Pa1",
+      "type": "is_author_of"
+    },
+    {
+      "source": "P2",
+      "target": "Pa1",
+      "type": "is_author_of"
+    },
+    {
+      "source": "P3",
+      "target": "Pa2",
+      "type": "is_author_of"
+    },
+    {
+      "source": "P4",
+      "target": "Pa2",
+      "type": "is_author_of"
+    },
+    {
+      "source": "P5",
+      "target": "Pa3",
+      "type": "is_author_of"
+    },
+    {
+      "source": "P6",
+      "target": "Pa3",
+      "type": "is_author_of"
+    },
+    {
+      "source": "P7",
+      "target": "Pa4",
+      "type": "is_author_of"
+    },
+    {
+      "source": "P8",
+      "target": "Pa4",
+      "type": "is_author_of"
+    },
+    {
+      "source": "P9",
+      "target": "Pa4",
+      "type": "is_author_of"
+    },
+    {
+      "source": "P10",
+      "target": "Pa5",
+      "type": "is_author_of"
+    },
+    {
+      "source": "P11",
+      "target": "Pa5",
+      "type": "is_author_of"
+    },
+    {
+      "source": "P12",
+      "target": "Pa6",
+      "type": "is_author_of"
+    },
+    {
+      "source": "P13",
+      "target": "Pa6",
+      "type": "is_author_of"
+    },
+    {
+      "source": "P14",
+      "target": "Pa7",
+      "type": "is_author_of"
+    },
+    {
+      "source": "P15",
+      "target": "Pa7",
+      "type": "is_author_of"
+    },
+    {
+      "source": "P16",
+      "target": "Pa8",
+      "type": "is_author_of"
+    },
+    {
+      "source": "P17",
+      "target": "Pa8",
+      "type": "is_author_of"
+    },
+    {
+      "source": "P18",
+      "target": "Pa9",
+      "type": "is_author_of"
+    },
+    {
+      "source": "P19",
+      "target": "Pa9",
+      "type": "is_author_of"
+    },
+    {
+      "source": "P20",
+      "target": "Pa10",
+      "type": "is_author_of"
+    },
+    {
+      "source": "P1",
+      "target": "Pa10",
+      "type": "is_author_of"
+    },
+    {
+      "source": "Pa1",
+      "target": "J1",
+      "type": "was_published_in"
+    },
+    {
+      "source": "Pa2",
+      "target": "J2",
+      "type": "was_published_in"
+    },
+    {
+      "source": "Pa3",
+      "target": "J3",
+      "type": "was_published_in"
+    },
+    {
+      "source": "Pa4",
+      "target": "J1",
+      "type": "was_published_in"
+    },
+    {
+      "source": "Pa5",
+      "target": "J2",
+      "type": "was_published_in"
+    },
+    {
+      "source": "Pa6",
+      "target": "J3",
+      "type": "was_published_in"
+    },
+    {
+      "source": "Pa7",
+      "target": "J4",
+      "type": "was_published_in"
+    },
+    {
+      "source": "Pa8",
+      "target": "J1",
+      "type": "was_published_in"
+    },
+    {
+      "source": "Pa9",
+      "target": "J4",
+      "type": "was_published_in"
+    },
+    {
+      "source": "Pa10",
+      "target": "J2",
+      "type": "was_published_in"
+    },
+    {
+      "source": "Pa1",
+      "target": "W1",
+      "type": "mention_concept"
+    },
+    {
+      "source": "Pa1",
+      "target": "W2",
+      "type": "mention_concept"
+    },
+    {
+      "source": "Pa2",
+      "target": "W2",
+      "type": "mention_concept"
+    },
+    {
+      "source": "Pa2",
+      "target": "W3",
+      "type": "mention_concept"
+    },
+    {
+      "source": "Pa3",
+      "target": "W4",
+      "type": "mention_concept"
+    },
+    {
+      "source": "Pa4",
+      "target": "W1",
+      "type": "mention_concept"
+    },
+    {
+      "source": "Pa4",
+      "target": "W5",
+      "type": "mention_concept"
+    },
+    {
+      "source": "Pa5",
+      "target": "W3",
+      "type": "mention_concept"
+    },
+    {
+      "source": "Pa6",
+      "target": "W1",
+      "type": "mention_concept"
+    },
+    {
+      "source": "Pa7",
+      "target": "W5",
+      "type": "mention_concept"
+    },
+    {
+      "source": "Pa8",
+      "target": "W2",
+      "type": "mention_concept"
+    },
+    {
+      "source": "Pa8",
+      "target": "W4",
+      "type": "mention_concept"
+    },
+    {
+      "source": "Pa9",
+      "target": "W4",
+      "type": "mention_concept"
+    },
+    {
+      "source": "Pa9",
+      "target": "W5",
+      "type": "mention_concept"
+    },
+    {
+      "source": "Pa10",
+      "target": "W1",
+      "type": "mention_concept"
+    },
+    {
+      "source": "Pa10",
+      "target": "W3",
+      "type": "mention_concept"
+    },
+    {
+      "source": "W1",
+      "target": "Pa1",
+      "type": "mention_paper"
+    },
+    {
+      "source": "W1",
+      "target": "Pa4",
+      "type": "mention_paper"
+    },
+    {
+      "source": "W1",
+      "target": "Pa6",
+      "type": "mention_paper"
+    },
+    {
+      "source": "W1",
+      "target": "Pa10",
+      "type": "mention_paper"
+    },
+    {
+      "source": "W2",
+      "target": "Pa1",
+      "type": "mention_paper"
+    },
+    {
+      "source": "W2",
+      "target": "Pa2",
+      "type": "mention_paper"
+    },
+    {
+      "source": "W2",
+      "target": "Pa8",
+      "type": "mention_paper"
+    },
+    {
+      "source": "W3",
+      "target": "Pa2",
+      "type": "mention_paper"
+    },
+    {
+      "source": "W3",
+      "target": "Pa5",
+      "type": "mention_paper"
+    },
+    {
+      "source": "W3",
+      "target": "Pa10",
+      "type": "mention_paper"
+    },
+    {
+      "source": "W4",
+      "target": "Pa3",
+      "type": "mention_paper"
+    },
+    {
+      "source": "W4",
+      "target": "Pa8",
+      "type": "mention_paper"
+    },
+    {
+      "source": "W4",
+      "target": "Pa9",
+      "type": "mention_paper"
+    },
+    {
+      "source": "W5",
+      "target": "Pa4",
+      "type": "mention_paper"
+    },
+    {
+      "source": "W5",
+      "target": "Pa7",
+      "type": "mention_paper"
+    },
+    {
+      "source": "W5",
+      "target": "Pa9",
+      "type": "mention_paper"
+    },
+    {
+      "source": "Pa2",
+      "target": "Pa1",
+      "type": "cited"
+    },
+    {
+      "source": "Pa3",
+      "target": "Pa1",
+      "type": "cited"
+    },
+    {
+      "source": "Pa3",
+      "target": "Pa2",
+      "type": "cited"
+    },
+    {
+      "source": "Pa4",
+      "target": "Pa2",
+      "type": "cited"
+    },
+    {
+      "source": "Pa4",
+      "target": "Pa3",
+      "type": "cited"
+    },
+    {
+      "source": "Pa5",
+      "target": "Pa4",
+      "type": "cited"
+    },
+    {
+      "source": "Pa6",
+      "target": "Pa1",
+      "type": "cited"
+    },
+    {
+      "source": "Pa6",
+      "target": "Pa4",
+      "type": "cited"
+    },
+    {
+      "source": "Pa7",
+      "target": "Pa5",
+      "type": "cited"
+    },
+    {
+      "source": "Pa8",
+      "target": "Pa2",
+      "type": "cited"
+    },
+    {
+      "source": "Pa8",
+      "target": "Pa6",
+      "type": "cited"
+    },
+    {
+      "source": "Pa9",
+      "target": "Pa3",
+      "type": "cited"
+    },
+    {
+      "source": "Pa9",
+      "target": "Pa7",
+      "type": "cited"
+    },
+    {
+      "source": "Pa10",
+      "target": "Pa8",
+      "type": "cited"
+    },
+    {
+      "source": "Pa10",
+      "target": "Pa9",
+      "type": "cited"
+    }
+  ]
+}

@@ -1,26 +1,56 @@
 # Graph Data Loader and Query System
 
+You need to run demo_alex_dolia.ipynb
+
 This project provides tools to load graph-structured data into a **Neo4j** database, process it for use with a **language model (LLM)**, and execute complex graph queries efficiently. The system is designed to handle data related to entities like **Papers**, **Authors**, **Journals**, and **Wikipages**, enabling advanced knowledge extraction and query generation.
 
 ---
+## Features of `GraphRAG`
 
-## Features
+### 1. Dynamic Graph Connectivity
+- Establishes a seamless connection to a Neo4j database using the `Neo4jGraph` class.
+- Automatically refreshes and retrieves the schema to ensure up-to-date metadata.
 
-1. **Graph Data Transformation**:
-   - Automatically formats nodes with taglines for better readability and context.
-   - Updates relationships between entities such as authorship, citations, and mentions.
+### 2. Graph Data Transformation
+- Automatically formats nodes with taglines for better readability and context.
+- Updates relationships between entities such as authorship, citations, and mentions.
 
-2. **Data Loading into Neo4j**:
-   - Modular class-based system for loading nodes and edges into a Neo4j database.
-   - Handles entity-specific attributes like `tagline` for Papers, Journals, and Wikipages.
+### 3. Data Loading into Neo4j
+- Provides a modular, class-based system for loading nodes and edges into a Neo4j database.
+- Handles entity-specific attributes like `tagline` for Papers, Journals, and Wikipages.
 
-3. **Graph Query Execution**:
-   - Executes Cypher queries on the Neo4j database.
-   - Integrates with an LLM to format query results and generate wrapped text summaries.
+### 4. Predefined Examples for Cypher Queries
+- Provides a robust set of examples mapping common user questions to Cypher queries.
+- Examples include counting citations, identifying collaborators, and extracting expertise.
 
-4. **LLM-Powered Text Generation**:
-   - Leverages OpenAI's models to generate and format expertise extraction text based on graph data.
-   - Supports custom templates, adjustable temperature, and token limits.
+### 5. Custom Query Prompt Template
+- Utilizes `FewShotPromptTemplate` to build a prompt for translating natural language questions into Cypher queries.
+- Includes predefined examples and schema details for enhanced accuracy.
+- Supports flexible input variables like `question` and `schema`.
+
+### 6. Language Model Integration
+- Integrates with OpenAI's `ChatGPT` (via `ChatOpenAI`) for Cypher query generation and results summarization.
+- Configurable parameters, including temperature for output tuning.
+
+### 7. Neo4j Graph Question-Answering Chain
+- Employs `GraphCypherQAChain` to process user queries.
+- Combines the power of Neo4j for data retrieval and LLM for natural language outputs.
+- Supports advanced options, such as verbose logging and bypassing certain query restrictions.
+
+### 8. Invoke Method for Query Execution
+- The `invoke` method simplifies the process of sending questions to the system.
+- Converts user queries into Cypher commands, executes them on the database, and returns results.
+
+## Example Use Cases
+- Count the number of citations and mentions for papers.
+- Identify authors collaborating on specific publications.
+- Determine the expertise of an individual based on authored documents.
+- Differentiate the focus areas of journals, like the "Journal of Artificial Intelligence Research."
+
+## Benefits
+- **Seamless Integration**: Combines Neo4j's graph capabilities with OpenAI's advanced LLMs for an enhanced question-answering experience.
+- **Scalability**: Modular design ensures flexibility for extending examples and adapting the chain to new use cases.
+- **Context-Aware Responses**: Uses graph schema information and Cypher examples to produce precise and contextually relevant answers.
 
 ---
 
