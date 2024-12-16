@@ -4,6 +4,15 @@ You need to run demo_alex_dolia.ipynb
 
 This project provides tools to load graph-structured data into a **Neo4j** database, process it for use with a **language model (LLM)**, and execute complex graph queries efficiently. The system is designed to handle data related to entities like **Papers**, **Authors**, **Journals**, and **Wikipages**, enabling advanced knowledge extraction and query generation.
 
+
+### Questions to Answer
+
+1. **Which authors have collaborated with Alice Smith on any papers?**  
+2. **What are the most influential papers in “Symbolic Artificial Intelligence”?**  
+3. **What is the expertise of “Henry Davis”?**  
+4. **What is the focus of the *Journal of Artificial Intelligence Research* and how does it differentiate from other journals?**  
+
+
 ---
 ## Features of `GraphRAG`
 
