@@ -15,9 +15,9 @@ This project provides tools to load graph-structured data into a **Neo4j** datab
 
 ### Answering Approaches (see demo_alex_dolia.ipynb)
 
-1. **Neo4j queries that are run in Python or directly in Neo4J**
-2. **Neo4j queries + Prompt Completion with LLM**
-3. **Examples of Neo4j queries, FewShotPromptTemplate and GraphCypherQAChain**
+1. **[Neo4j queries](https://github.com/Alex-Dolia/Graph-RAG/blob/main/utils/utilsv2.py) that are run in Python or directly in Neo4J**
+2. **[Neo4j queries + Prompt Completion with LLM](https://github.com/Alex-Dolia/Graph-RAG/blob/main/utils/utilsv2.py)**
+3. **Examples of [Neo4j queries, FewShotPromptTemplate and GraphCypherQAChain](https://github.com/Alex-Dolia/Graph-RAG/blob/main/utils/graph_rag.py)**
 
 ---
 ## Features of `GraphRAG`
