@@ -13,6 +13,12 @@ This project provides tools to load graph-structured data into a **Neo4j** datab
 4. **What is the focus of the *Journal of Artificial Intelligence Research* and how does it differentiate from other journals?**  
 
 
+### Answering Approaches (see demo_alex_dolia.ipynb)
+
+1. **Neo4j queries that are run in Python or directly in Neo4J**
+2. **Neo4j queries + Prompt Completion with LLM**
+3. **Examples of Neo4j queries, FewShotPromptTemplate and GraphCypherQAChain**
+
 ---
 ## Features of `GraphRAG`
 
